@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import IconLinkExt from "../../public/enlace-externo";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
             <IconLinkExt />
           </div>
         </Link>
+        {/* <div className="">
+          <Image src={"https://i.imgur.com/wjWBgce.jpeg"} key={"Image0100"} width={800} height={800} className="rounded-full mt-7 mb-7" />
+        </div> */}
       </div>
     </main>
   );
