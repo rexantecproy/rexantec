@@ -11,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es-419">
-      <link rel="apple-touch-icon" href="https://i.imgur.com/FNYM51r.png" />
-      <link rel="icon" href="https://i.imgur.com/FNYM51r.png" type="image/x-png" />
+      <link rel="apple-touch-icon" href="https://i.imgur.com/ZoO6k92.png" />
+      <link rel="icon" href="https://i.imgur.com/ZoO6k92.png" type="image/x-png" />
       <body className={inter.className}>{children}</body>
     </html>
   );
