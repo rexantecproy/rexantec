@@ -17,9 +17,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// El dominio rexantecservicios.com.ar posee configurados MX Externos, para poder utilizar el webmail, 
-// deberá restaurar los MX a los valores por defecto, editando la Zona DNS del dominio.
-
-// La cuenta de email no se encuentra funcionando de manera correcta. Contacte a soporte (código de error 100201) 
-// La cuenta de email no se encuentra funcionando de manera correcta. Contacte a soporte (código de error 100202) L
