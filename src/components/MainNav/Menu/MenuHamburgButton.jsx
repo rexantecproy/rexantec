@@ -15,7 +15,7 @@ export default function MenuHamburgButton({ props }) {
                 </span>
             </ul>
             <nav className={`h-screen md:hidden bg-sky-500/0 w-screen fixed top-16 left-0 z-auto flex justify-center ${isOpenMenu ? '' : 'hidden'}`}>
-                <div className='absolute z-[4] w-full h-full bg-sky-500/10' onClick={() => { setIsOpenMenu(!isOpenMenu) }}></div>
+                <div className='absolute z-[4] w-full h-full bg-black/10' onClick={() => { setIsOpenMenu(!isOpenMenu) }}></div>
                 <div className={`z-[5] absolute w-72 h-80 bg-sky-100/90 justify-center flex bg-border-black/0 border-b-4 border-sky-500 `}>
                     <List props={props} />
                 </div>
