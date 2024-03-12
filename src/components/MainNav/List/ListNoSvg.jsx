@@ -8,10 +8,10 @@ export default function ListNoSvg({ props }) {
             {
                 props.map((categorias, i) => {
                     return (
-                        categorias.name == 'Catálogo' ?
+                        categorias.name == 'Servicios' ?
                             (<GlobalList key={`$ID-${i}DROP`} sub={categorias.list} title={categorias.name} />)
                             :
-                            (<li key={`$ID-${i}`} className='border border-transparent bg-sky-600 box-border hover:border hover:border-lime-600  [&>a]:activate:bg-sky-500 hover:bg-lime-500 hover:shadow-xl active:shadow-2xl'>
+                            (<li key={`$ID-${i}`} className='border border-transparent bg-sky-600 box-border hover:border hover:border-lime-600 [&>a]:activate:bg-sky-500 hover:bg-lime-500 hover:shadow-xl active:shadow-2xl'>
                                 <Link href={categorias.linknav}>{categorias.name}</Link>
                             </li>)
                     )

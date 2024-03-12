@@ -1,4 +1,4 @@
-import LISTNAV from '@/BBDD/LISTNAV.json'
+import LISTNAV from '../../BBDD/LISTNAV.json'
 import ListNoSvg from './List/ListNoSvg.jsx';
 //mport ListSvg from "./List/ListSvg.jsx";
 import TitleLogo from '../Utilities/TitleLogo.jsx';
@@ -11,6 +11,7 @@ export default function NavBar () {
             <Image src={"https://i.imgur.com/ZoO6k92.png"} width={50} height={50}/>
             <TitleLogo component={'nav'} title={'Rexantec'} />
             <ListNoSvg props={LISTNAV} />
+           
             {/* <ListSvg /> */}
         </nav>
     </header>
