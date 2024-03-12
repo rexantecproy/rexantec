@@ -3,7 +3,7 @@
 import Link from "next/link";
 import IconLinkExt from "../../../public/img_svg/enlace-externo";
 //import Image from "next/image";
-import Navbar from "../../components/MainNav/Navbar";
+import Navbar from "../../components/MainNav/NavBar";
 
 export default function Home() {
   return (
