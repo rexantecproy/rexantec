@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function TitleLogo({ component , title}) {
     return <>
-        <div className={`${component == 'nav' ? 'flex' : 'hidden'}  flex-grow basis-0 justify-start md:justify-items-start select-none ml-1`}>
+        <div className={`${component == 'nav' ? 'flex' : 'hidden'}  flex-grow basis-0 justify-start md:justify-items-start select-none ml-2`}>
             <Link href="/" title='Home' className="font-extrabold text-lg basis-0 flex items-center justify-center ">
-                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-transparent duration-500 hover:before:bg-sky-700  relative inline-block [&_span]:relative [&_span]:text-sky-600 [&:hover_span]:text-white [&_span]:duration-500 [&_span]:italic [&_span]:text-xl [&_span]:px-2 [&_span]:py-4 ">
+                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-transparent duration-500 hover:before:bg-sky-700  relative inline-block [&_span]:relative [&_span]:text-sky-600 [&:hover_span]:text-sky-100 [&_span]:duration-500 [&_span]:italic [&_span]:text-xl [&_span]:px-2 [&_span]:py-4 ">
                     <span>{title}</span>
                 </span>
             </Link>

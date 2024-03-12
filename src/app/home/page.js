@@ -1,14 +1,14 @@
 //import Image from "next/image";
 
 import Link from "next/link";
-import IconLinkExt from "../../public/img_svg/enlace-externo";
+import IconLinkExt from "../../../public/img_svg/enlace-externo";
 //import Image from "next/image";
-import Navbar from "../components/MainNav/Navbar";
+import Navbar from "../../components/MainNav/Navbar";
 
 export default function Home() {
   return (
     <div className=" flex justify-center">
-      <div className="w-3/5 bg-white">
+      <div className="w-screen md:w-3/5 bg-white">
         <Navbar />
         <main className="flex w-12/12 h-screen flex-col items-center justify-center select-none">
           <h1 className="flex flex-row items-center sm:text-8xl text-3xl font-extrabold text-sky-500/50 skew-y-12 transform delay-1000 hover:text-sky-500/95 cursor-default">REXANTEC</h1>

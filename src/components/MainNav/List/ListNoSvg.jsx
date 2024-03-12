@@ -1,4 +1,4 @@
-import GlobalList from '@/components/MainNav/DropDown/DropDownList';
+import GlobalList from '../DropDown/DropDownList';
 import Link from 'next/link';
 import MenuHamburgButton from '../Menu/MenuHamburgButton';
 

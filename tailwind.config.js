@@ -59,10 +59,10 @@ module.exports = {
       addComponents({
 
         '.scroll-color': {
-          background: '#ec489a17',
+          background: '#e5f2f9',
           width: '10px',
           '&:hover': {
-            background: '#ec489a40'
+            background: '#0ea5e9'
           },
         },
         '.scroll-thumb-color': {
