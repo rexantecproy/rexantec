@@ -66,9 +66,9 @@ module.exports = {
           },
         },
         '.scroll-thumb-color': {
-          background: 'linear-gradient(284deg, #ec489a0d 25%, #ec489980 50%, #ec489a0d 75%)',
+          background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)',
           '&:hover': {
-            background: 'linear-gradient(284deg, #ec489a40 25%, #ec4899 50%, #ec489a40 75%)'
+            background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)'
           },
         },
         '.toggle_menu': {
