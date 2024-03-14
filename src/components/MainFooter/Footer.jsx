@@ -9,7 +9,7 @@ export default function Footer () {
                     <ul className="flex flex-col w-2/12 items-center divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <Image src={"https://i.imgur.com/ZoO6k92.png"} width={80} height={80} />
                     </ul>
-                    <ul className="flex flex-col w-2/12 nth-1:mb-2 [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
+                    <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>SERVICIOS</li>
                         <li>Carrier Services</li>
                         <li>Instaladores</li>
@@ -17,27 +17,27 @@ export default function Footer () {
                         <li>Piezas y Accesorios</li>
                         <li>Manuales</li>
                     </ul>
-                    <ul className="flex flex-col w-2/12 nth-1:mb-2 [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
+                    <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>PRODUCTOS</li>
                         <li>Residenciales</li>
                         <li>Light Commercial</li>
                         <li>Commercial</li>
                         <li>Calderas</li>
                     </ul>
-                    <ul className="flex flex-col nth-1:mb-2 nth-2:text-xs w-3/12 [&>li]:py-1 divide-x-reverse divide-x-2 divide-solid divide-sky-800">
+                    <ul className="hidden md:flex flex-col nth-1:mb-2 nth-2:text-xs w-3/12 [&>li]:py-1 divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>INSTITUCIONAL</li>
                         <li>Conocé sobre la historia de Carrier y la invención del Aire Acondicionado.</li>
                         <li>DISTRIBUIDORES</li>
                         <li>SERVICE OFICAL</li>
                         <li>POLÍTICA DE PRIVACIDAD</li>
                     </ul>
-                    <ul className="w-4/12 text-end">
+                    <ul className="md:w-4/12 text-end">
                         <li>ATENCIÓN AL CLIENTE</li>
                         <li className="my-2"><HrComponent color={"#075985"} height={3} /></li>
-                        <li className="text-3xl mb-4 select-text">0810-222-7754</li>
+                        <li className="md:text-3xl mb-4 select-text">0810-222-7754</li>
                         <li className="text-sky-800">GARANTÍAS</li>
                         <li className="my-2"><HrComponent color={"#075985"} height={3} /></li>
-                        <li className="text-2xl select-text">0-810-666-0557</li>
+                        <li className="md:text-2xl select-text">0-810-666-0557</li>
                     </ul>
                 </div>
                 <div className="mt-10">
