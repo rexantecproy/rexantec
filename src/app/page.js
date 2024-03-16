@@ -1,8 +1,8 @@
-import { metadata } from "../layout";
+import { metadata } from "./layout";
 metadata.title = 'HOME';
 
 import Link from "next/link";
-import IconLinkExt from "../../../public/img_svg/enlace-externo";
+import IconLinkExt from "../../public/img_svg/enlace-externo";
 
 export default function Home() {
   return (
