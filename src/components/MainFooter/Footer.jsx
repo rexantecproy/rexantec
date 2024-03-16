@@ -13,46 +13,46 @@ export default function Footer () {
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>SERVICIOS</li>
                         <li>
-                            <Link href={"mailto:consultas@rexantecservicios.com.ar"}>Services</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:consultas@rexantecservicios.com.ar"}>Services</Link>
                         </li>
                         <li>
-                            <Link href={"mailto:reservas@rexantecservicios.com.ar"}>Instalaciones</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:reservas@rexantecservicios.com.ar"}>Instalaciones</Link>
                         </li>
                         <li>
-                            <Link href={"mailto:informes@rexantecservicios.com.ar"}>Mantenimientos</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:informes@rexantecservicios.com.ar"}>Mantenimientos</Link>
                         </li>
                     </ul>
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>PRODUCTOS</li>
                         <li>
-                            <Link href={"/"}>Residencial</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Residencial</Link>
                         </li>
                         <li>
-                            <Link href={"/"}>Comercial</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Comercial</Link>
                         </li>
                         <li>
-                            <Link href={"/"}>Industrial</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Industrial</Link>
                         </li>
                         <li>
-                            <Link href={"/"}>Calderas</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Calderas</Link>
                         </li>
                     </ul>
                     <ul className="hidden md:flex flex-col nth-1:mb-2 nth-1:text-center nth-2:text-xs w-3/12 [&>li]:py-1 divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>INSTITUCIONAL</li>
                         <li>
-                            <Link href={"/"}>&nbsp;&nbsp;Conocé sobre la historia de Rexantec en el mundo del Aire Acondicionado.</Link>
+                            <Link className='hover:hover:text-sky-800' href={"/"}>&nbsp;&nbsp;Conocé sobre la historia de Rexantec en el mundo del Aire Acondicionado.</Link>
                         </li>
                     </ul>
                     <ul className="md:w-4/12 text-end">
                         <li>ATENCIÓN AL CLIENTE</li>
                         <li className="my-2"><HrComponent color={"#075985"} height={3} /></li>
                         <li className="md:text-xl mb-4 select-text">
-                            <Link href={"tel:+541158947428"}>(+54) 9 1158947428</Link>
+                            <Link className='hover:text-sky-800' href={"tel:+541158947428"}>(+54) 9 1158947428</Link>
                         </li>
                         <li className="text-sky-800">COTIZACIONES</li>
                         <li className="my-2"><HrComponent color={"#075985"} height={3} /></li>
                         <li className="md:text-lg select-text">
-                        <Link href={"tel:+541158947428"}>(+54) 9 1158947428</Link>
+                        <Link className='hover:text-sky-800' href={"tel:+541158947428"}>(+54) 9 1158947428</Link>
                         </li>
                     </ul>
                 </div>

@@ -2,7 +2,7 @@
     {
         "name": "Facebook",
         "background_color": "rgba(256, 256, 256, .7)",
-        "link": "https://www.facebook.com/",
+        "link": "https://www.facebook.com/profile.php?id=100083022592038",
         "component": "Facebook"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "Whatsapp",
         "background_color": "rgba(256, 256, 256, .7)",
-        "link": "https://api.whatsapp.com/send?phone=5491157416210",
+        "link": "https://wa.me/5491158947428?text=Realice%20su%20consulta%20sobre%20todos%20nuestros%20servicios%20y%20productos%20directamente.%20EQUIPO%20REXANTEC.",
         "component": "WhatsApp"
     }
 ]
