@@ -13,13 +13,13 @@ export default function Footer () {
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>SERVICIOS</li>
                         <li>
-                            <Link href={"/"}>Services</Link>
+                            <Link href={"mailto:consultas@rexantecservicios.com.ar"}>Services</Link>
                         </li>
                         <li>
-                            <Link href={"/"}>Instalaciones</Link>
+                            <Link href={"mailto:reservas@rexantecservicios.com.ar"}>Instalaciones</Link>
                         </li>
                         <li>
-                            <Link href={"/"}>Mantenimientos</Link>
+                            <Link href={"mailto:informes@rexantecservicios.com.ar"}>Mantenimientos</Link>
                         </li>
                     </ul>
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">

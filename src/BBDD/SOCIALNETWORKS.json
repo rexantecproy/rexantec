@@ -14,13 +14,13 @@
     {
         "name": "Gmail",
         "background_color": "rgba(256, 256, 256, .7)",
-        "link": "mailto:ivan.maidana9912@gmail.com",
+        "link": "mailto:informes@rexantecservicios.com.ar",
         "component": "Gmail"
     },
     {
         "name": "Phone",
         "background_color": "rgba(256, 256, 256, .7)",
-        "link": "tel:+5491157416209",
+        "link": "tel:+541158947428",
         "component": "Phone"
     },
     {

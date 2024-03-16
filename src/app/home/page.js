@@ -10,7 +10,7 @@ import CircleMenu from "@/components/Circle-Animation/circleMenu";
 export default function Home() {
   return (
     <div className="flex justify-center flex-col items-center">
-      <CircleMenu />
+      <CircleMenu colorCicle={'#e5f2f926'} colorCicleHover={'#0ea5e9'} />
       <div className="w-screen md:w-3/5 bg-white">
         <Navbar />
         <main className="flex w-12/12 h-screen flex-col items-center justify-center select-none">
