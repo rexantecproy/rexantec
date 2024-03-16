@@ -65,6 +65,14 @@ module.exports = {
             background: '#0ea5e9'
           },
         },
+        'non-draggable': {
+          'user-drag': 'none',
+          '-webkit-user-drag': 'none',
+          'user-select': 'none',
+          '-moz-user-select': 'none',
+          '-webkit-user-select': 'none',
+          '-ms-user-select': 'none'
+        },
         '.scroll-thumb-color': {
           background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)',
           '&:hover': {
@@ -72,12 +80,12 @@ module.exports = {
           },
         },
         '.toggle_menu': {
-          'box-shadow': '0 0px 4px #ec489926',
+          'box-shadow': '0 0px 4px #e5f2f926',
           transition: 'transform 1.25s',
           '&:hover': {
             transition: '1000ms',
             'box-shadow': '10px rgba(0, 0, 0, 0.863)',
-            border: '2px solid #ec4899'
+            border: '2px solid #0ea5e9'
           },
         },
         '.menu_1': {
@@ -96,16 +104,17 @@ module.exports = {
               display: 'flex',
               'justify-content': 'center',
               'align-items': 'center',
-              width: '40px',
-              height: '40px',
+              width: '50px',
+              height: '50px',
+              padding: '8px',
               'background-color': 'var(--clr)',
               'border-radius': '50%',
               transform: 'rotate(calc(360deg / calc(var(--list_social) * -1) * var(--i)))',
-              'box-shadow': '0 3px 4px #ec489926',
+              'box-shadow': '0 3px 4px #e5f2f926',
 
               '&:hover': {
                 transition: '1000ms',
-                border: '2px solid #ec4899'
+                border: '2px solid #0ea5e9'
               }
             }
           },
@@ -116,7 +125,7 @@ module.exports = {
           },
           '&.active .toggle_menu': {
             transform: 'rotate(315deg)',
-            border: '2px solid #ec48993d',
+            border: '2px solid ##0ea5e93d',
           }
         },
         '.shimpg': {
