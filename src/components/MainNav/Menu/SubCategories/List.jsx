@@ -9,9 +9,9 @@ export default function List({ props, state }) {
             props.map((categorias, i) => {
                 return <li key={`$ID-${i}-${categorias.name}`} className={`w-72 border-b-2 border-sky-500/0 hover:border-b-2 hover:border-sky-500 hover:text-sky-500 hover:bg-sky-100 cursor-pointer group/sub_list_1 `}>
                     {
-                        categorias.name == 'Servicios'
+                        categorias.name == 'Servicios' || categorias.name == 'Productos' || categorias.name == 'Institucional' //agregar rodas las pestañas con DROPDOWN
                             ?
-                            (<span className={`${isOpenSubMenu ? 'h-56' : 'h-auto'} flex flex-col overflow-x-hidden overflow-y-auto touch-pan-y web-scrollbar:scroll-color web-scrollbar-thumb:scroll-thumb-color`}>
+                            (<span className={`${isOpenSubMenu ? 'h-36' : 'h-auto'} flex flex-col overflow-x-hidden overflow-y-auto touch-pan-y web-scrollbar:scroll-color web-scrollbar-thumb:scroll-thumb-color`}>
                                 <span className={`${isOpenSubMenu ? 'flex text-sky-500 border-b-4 border-sky-500' : ''}`} onClick={() => { setIsOpenSubMenu(!isOpenSubMenu) }}>{categorias.name}</span>
 
                                 {

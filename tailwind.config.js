@@ -65,14 +65,6 @@ module.exports = {
             background: '#0ea5e9'
           },
         },
-        'non-draggable': {
-          'user-drag': 'none',
-          '-webkit-user-drag': 'none',
-          'user-select': 'none',
-          '-moz-user-select': 'none',
-          '-webkit-user-select': 'none',
-          '-ms-user-select': 'none'
-        },
         '.scroll-thumb-color': {
           background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)',
           '&:hover': {
@@ -125,7 +117,7 @@ module.exports = {
           },
           '&.active .toggle_menu': {
             transform: 'rotate(315deg)',
-            border: '2px solid ##0ea5e93d',
+            border: '2px solid var(--colorCicleHover)', //Mejor que no funcione por eso las 2 ##...
           }
         },
         '.shimpg': {

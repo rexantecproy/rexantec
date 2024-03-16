@@ -8,7 +8,7 @@ export default function ListNoSvg({ props }) {
             {
                 props.map((categorias, i) => {
                     return (
-                        categorias.name == 'Servicios' ?
+                        categorias.name == 'Servicios' || categorias.name == 'Institucional' || categorias.name == 'Productos' ? //AGREGAR PESTAÑAS CON DROPDOWN
                             (<GlobalList key={`$ID-${i}DROP`} sub={categorias.list} title={categorias.name} />)
                             :
                             (<li key={`$ID-${i}`} className='border border-transparent bg-sky-600 box-border hover:border hover:border-lime-600 [&>a]:activate:bg-sky-500 hover:bg-lime-500 hover:shadow-xl active:shadow-2xl'>
