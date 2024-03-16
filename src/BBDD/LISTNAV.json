@@ -242,40 +242,8 @@
                 "name": "CONÓCENOS",
                 "sub_content_1": [
                     {
-                        "name": "VALE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "BÁSICO RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "RAYADO CON TAJO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "LARGO RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "MORLEY RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO SPORT",
-                        "href": "/"
-                    },
-                    {
-                        "name": "TIRA CON RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CHOMBA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO MORLEY",
-                        "href": "/"
+                        "name": "REXANTEC",
+                        "href": "/conocenos"
                     }
                 ]
             }
