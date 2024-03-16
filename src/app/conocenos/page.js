@@ -1,10 +1,10 @@
 import { metadata } from "../layout";
-metadata.title = 'HOME';
+metadata.title = 'Conócenos';
 
 import Link from "next/link";
 import IconLinkExt from "../../../public/img_svg/enlace-externo";
 
-export default function Home() {
+export default function Conocenos() {
   return (
     <div>
       <div className="w-screen md:w-full">
