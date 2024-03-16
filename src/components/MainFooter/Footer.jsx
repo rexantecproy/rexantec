@@ -8,7 +8,7 @@ export default function Footer () {
             <div className="flex flex-col w-3/5 justify-center">
                 <div className="flex flex-row items-center md:items-start mt-10 mb-5 nth-4:mr-10 [&_ul]:ml-4 md:[&>ul]:h-44">
                     <ul className="flex flex-col w-2/12 items-center divide-x-reverse divide-x-2 divide-solid divide-sky-800 pointer-events-none">
-                        <Image src={"https://i.imgur.com/ZoO6k92.png"} width={100} height={100}/>
+                        <Image src={"https://i.imgur.com/ZoO6k92.png"} width={100} height={100} alt="Logo Footer"/>
                     </ul>
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>SERVICIOS</li>

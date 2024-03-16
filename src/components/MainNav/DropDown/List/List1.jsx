@@ -10,9 +10,9 @@ export default function SubList1({ sub_1 }) {
                         {
                             item.sub_content_1.length == 0
                                 ?
-                                (<Link className='' href={item.href}>{item.name}</Link>)
+                                (<Link href={item.href}>{item.name}</Link>)
                                 :
-                                (<span className=''>{item.name}</span>)
+                                (<span>{item.name}</span>)
                         }
                         <SubList2 sub_2={item} />
                     </li>
