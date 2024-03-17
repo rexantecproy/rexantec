@@ -9,14 +9,8 @@ const nextConfig = {
       },
     ];
   },images: {
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'i.imgur.com',
-            pathname: '/**'
-          },
-        ],
-      },
+    domains: ['i.imgur.com']
+  }
 }
 
 export default nextConfig
