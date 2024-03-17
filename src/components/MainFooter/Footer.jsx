@@ -62,7 +62,7 @@ export default function Footer () {
                     <div className="flex flex-col my-4 md:hidden [&_a]:text-xs [&_a]:my-1 [&_a]:hover:text-sky-800">
                         <p className="text-center text-sm">REDES SOCIALES</p>
                         <Link href={"mailto:informes@rexantecservicios.com.ar"}>Email</Link>
-                        <Link href={"https://www.facebook.com/profile.php?id=100083022592038"}>Facebook</Link>
+                        <Link href={"https://www.facebook.com/profile.php?id=100083022592038 "}>Facebook</Link>
                         <Link href={"https://www.instagram.com/rexantec_servicios/"}>Instagram</Link>
                         <Link href={"https://www.tiktok.com/@rexantec?_t=8kjKop3NavG&_r=1"}>Tik Tok</Link>
                         <Link href={"https://wa.me/5491158947428?text=Realice%20su%20consulta%20sobre%20todos%20nuestros%20servicios%20y%20productos%20directamente.%20EQUIPO%20REXANTEC."}>Whatsapp</Link>
