@@ -65,7 +65,7 @@ export default function Footer () {
                         <Link href={"https://www.facebook.com/profile.php?id=100083022592038 "}>Facebook</Link>
                         <Link href={"https://www.instagram.com/rexantec_servicios/"}>Instagram</Link>
                         <Link href={"https://www.tiktok.com/@rexantec?_t=8kjKop3NavG&_r=1"}>Tik Tok</Link>
-                        <Link href={"https://wa.me/5491158947428?text=Realice%20su%20consulta%20sobre%20todos%20nuestros%20servicios%20y%20productos%20directamente.%20EQUIPO%20REXANTEC."}>Whatsapp</Link>
+                        <Link href={"https://wa.me/5491158947428?text=Hola%20me%20llamo:%20\nQuiero%20realizar%20la%20consulta%20sobre%20(Problema%20técnico/Compra%20de%20equipo/Otro):%20\n¿Cuál%20es%20el%20presupuesto%20correspondiente?○\n¡Gracias!."}>Whatsapp</Link>
                     </div>  
                     <HrComponent color={"#075985"} height={3} />                   
                     <div className="flex flex-col md:flex-row w-full justify-between pb-5 pt-2 md:text-base text-xs">
