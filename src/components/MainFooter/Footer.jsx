@@ -65,7 +65,7 @@ export default function Footer () {
                         <Link className="hover:text-sky-800" href={"https://www.facebook.com/profile.php?id=100083022592038 "}>Facebook</Link>
                         <Link className="hover:text-sky-800" href={"https://www.instagram.com/rexantec_servicios/"}>Instagram</Link>
                         <Link className="hover:text-sky-800" href={"https://www.tiktok.com/@rexantec?_t=8kjKop3NavG&_r=1"}>Tik Tok</Link>
-                        <Link className="hover:text-sky-800" href={"https://wa.me/5491158947428?text=Hola%20me%20llamo:%20%20%20%0A%-%20%0A%0AQuiero%20realizar%20la%20consulta%20sobre%20(Problema%20técnico/Compra%20de%20equipo/Otro):%20%20%20%0A%-%20%0A%0A¿Cuál%20es%20el%20presupuesto%20correspondiente?%0A%-%20%0A%0A¡Gracias!. "}>Whatsapp</Link>
+                        <Link className="hover:text-sky-800" href={"https://wa.me/5491158947428?text=Hola%20me%20llamo:%20%20%20%0A-%20%0A%0AQuiero%20realizar%20la%20consulta%20sobre%20(Problema%20técnico/Compra%20de%20equipo/Otro):%20%20%20%0A-%20%0A%0A¿Cuál%20es%20el%20presupuesto%20correspondiente?%0A-%20%0A%0A¡Gracias!. "}>Whatsapp</Link>
                     </div>  
                     <HrComponent color={"#075985"} height={3} />                   
                     <div className="flex flex-col md:flex-row w-full justify-between pb-5 pt-2 md:text-base text-xs">
