@@ -59,13 +59,13 @@ export default function Footer () {
 
                 <div className="flex flex-col">  
                     <HrComponent color={"#075985"} height={3} />  
-                    <div className="flex flex-col my-4 md:hidden [&_a]:text-xs [&_a]:my-1 [&_a]:hover:text-sky-800">
+                    <div className="flex flex-col my-4 md:hidden [&_a]:text-xs [&_a]:my-1">
                         <p className="text-center text-sm">REDES SOCIALES</p>
-                        <Link href={"mailto:informes@rexantecservicios.com.ar"}>Email</Link>
-                        <Link href={"https://www.facebook.com/profile.php?id=100083022592038 "}>Facebook</Link>
-                        <Link href={"https://www.instagram.com/rexantec_servicios/"}>Instagram</Link>
-                        <Link href={"https://www.tiktok.com/@rexantec?_t=8kjKop3NavG&_r=1"}>Tik Tok</Link>
-                        <Link href={"https://wa.me/5491158947428?text=Hola%20me%20llamo:%20%20%20%0AQuiero%20realizar%20la%20consulta%20sobre%20(Problema%20técnico/Compra%20de%20equipo/Otro):%20%20%20%0A¿Cuál%20es%20el%20presupuesto%20correspondiente?%0A¡Gracias!. "}>Whatsapp</Link>
+                        <Link className="hover:text-sky-800" href={"mailto:informes@rexantecservicios.com.ar"}>Email</Link>
+                        <Link className="hover:text-sky-800" href={"https://www.facebook.com/profile.php?id=100083022592038 "}>Facebook</Link>
+                        <Link className="hover:text-sky-800" href={"https://www.instagram.com/rexantec_servicios/"}>Instagram</Link>
+                        <Link className="hover:text-sky-800" href={"https://www.tiktok.com/@rexantec?_t=8kjKop3NavG&_r=1"}>Tik Tok</Link>
+                        <Link className="hover:text-sky-800" href={"https://wa.me/5491158947428?text=Hola%20me%20llamo:%20%20%20%0A%-%200A%0AQuiero%20realizar%20la%20consulta%20sobre%20(Problema%20técnico/Compra%20de%20equipo/Otro):%20%20%20%0A%-%200A%0A¿Cuál%20es%20el%20presupuesto%20correspondiente?%0A%-%200A%0A¡Gracias!. "}>Whatsapp</Link>
                     </div>  
                     <HrComponent color={"#075985"} height={3} />                   
                     <div className="flex flex-col md:flex-row w-full justify-between pb-5 pt-2 md:text-base text-xs">
