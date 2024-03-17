@@ -1,6 +1,7 @@
 import LISTNAV from '../../BBDD/LISTNAV.json'
-import ListNoSvg from './List/ListNoSvg.jsx';
-import TitleLogo from '../Utilities/TitleLogo.jsx';
+import TitleLogo from '../utilities/TitleLogo';
+import ListNoSvg from './List/ListNoSvg';
+
 import Image from 'next/image.js';
 
 export default function NavBar () {
