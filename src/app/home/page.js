@@ -1,7 +1,7 @@
 import { metadata } from "../layout";
-metadata.title = 'HOME';
 
 export default function Home() {
+  metadata.title = 'HOME';
   return (
     <div>
       <div className="w-screen md:w-full">
