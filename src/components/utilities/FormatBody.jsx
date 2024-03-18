@@ -5,7 +5,8 @@ export default function Format({ children, Title }) {
     return (
         <div className="w-screen md:w-3/5">
             <main className="flex h-screen flex-col items-center justify-center select-none">
-                {children}
+                <h1 h1 className="flex flex-row text-center sm:text-8xl text-3xl font-extrabold bg-gradient-to-r from-sky-500/5 from-0% to-sky-500 to-100%  hover:bg-gradient-to-r hover:from-red-500/5 hover:from-0% hover:to-red-500 hover:to-100% text-black cursor-default p-2">En Desarrollo: {children}
+                </h1>
             </main>
         </div>
     );
