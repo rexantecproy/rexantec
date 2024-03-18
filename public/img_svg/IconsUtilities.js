@@ -13,7 +13,7 @@ import UserManagerSvg from "./user-manager";
 
 export const Add = <AddSVG/>;
 export const Search = <BusquedaSvg className={`w-3 h-3`}/>;
-export const Close = <CloseSvg className={`w-5 h-5 text-black hover:text-red-800`}/>;
+export const Close = <CloseSvg className={`w-5 h-5`}/>;
 export const Next = <FormNextSvg className={`w-7 h-7 lg:w-10 lg:h-10`}/>;
 export const Previous = <FormPreviousSvg className={`w-7 h-7 lg:w-10 lg:h-10`}/>;
 export const Location = <LocationSvg/>;

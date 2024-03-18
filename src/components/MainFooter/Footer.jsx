@@ -6,7 +6,7 @@ export default function Footer () {
     return (
         <div className="w-full flex justify-center text-sky-600 bg-gradient-to-t from-sky-50 from-10% via-sky-200 via-90% to-sky-400 to-100% select-none">
             <div className="flex flex-col w-3/5 justify-center">
-                <div className="flex flex-row items-center md:items-start mt-10 mb-5 nth-4:mr-10 [&_ul]:ml-4 md:[&>ul]:h-44">
+                <div className="flex flex-row items-center md:items-start mt-10 mb-5 nth-4:mr-10 [&_ul]:ml-4 md:[&>ul]:h-44 h-60">
                     <ul className="flex flex-col md:w-2/12 items-center divide-x-reverse divide-x-2 divide-solid divide-sky-800 pointer-events-none">
                         <Image src={"https://i.imgur.com/ZoO6k92.png"} width={100} height={100} alt="Logo Footer"/>
                     </ul>
@@ -43,7 +43,7 @@ export default function Footer () {
                             <Link className='hover:hover:text-sky-800' href={"/"}>&nbsp;&nbsp;Conocé sobre la historia de Rexantec en el mundo del Aire Acondicionado.</Link>
                         </li>
                     </ul>
-                    <ul className="md:w-4/12 w-2/5 text-end md:text-base">
+                    <ul className="md:w-4/12 w-2/5 text-end">
                         <li className="text-xs md:text-base">ATENCIÓN AL CLIENTE</li>
                         <li className="my-2"><HrComponent color={"#075985"} height={3} /></li>
                         <li className="md:text-xl text-sm mb-4 select-text">

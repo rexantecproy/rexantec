@@ -1,18 +1,25 @@
 export default function CloseSvg(props) {
   return (
     <svg
-      height={"1.25rem"}
-      viewBox="0 0 24 24"
-      width={"1.25rem"}
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
+      width="1.25rem"
+      height="1.25rem"
+      viewBox="0 0 50 50"
     >
       <path
-        d="M3 3l18 18M3 21L21 3"
         fill="none"
         stroke="#000"
-        strokeWidth={2}
-      />
+        strokeMiterlimit="10"
+        strokeWidth="4"
+        d="M7.741 7.741L42.359 42.359"
+      ></path>
+      <path
+        fill="none"
+        stroke="#000"
+        strokeMiterlimit="10"
+        strokeWidth="4"
+        d="M42.258 7.742L7.618 42.382"
+      ></path>
     </svg>
-  )
+  );
 };
