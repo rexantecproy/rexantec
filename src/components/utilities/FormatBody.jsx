@@ -2,7 +2,7 @@ import { metadata } from "@/app/layout";
 
 export default function Format({ children, Title }) {
     metadata.title = Title;
-    const titlePageStr = `${Title.charAt(0).toUpperCase()}${Title.slice(1)}`
+    const titlePageStr = `${Title.charAt(0).toUpperCase()}${Title.slice(1).toLowerCase()}`
     return (
         <div className="w-screen md:w-3/5">
             <main className="flex h-screen flex-col items-center justify-center select-none">
