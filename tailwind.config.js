@@ -59,16 +59,16 @@ module.exports = {
       addComponents({
 
         '.scroll-color': {
-          background: '#e5f2f9',
+          background: '#0ea5e92d',
           width: '10px',
           '&:hover': {
-            background: '#0ea5e9'
+            background: '#0ea5e989'
           },
         },
         '.scroll-thumb-color': {
-          background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)',
+          background: 'linear-gradient(284deg, #0ea5e90d 25%, #0ea5e92d 50%, #0ea5e90d 75%)',
           '&:hover': {
-            background: 'linear-gradient(284deg, #e5f2f9 25%, #0ea5e9 50%, #e5f2f9 75%)'
+            background: 'linear-gradient(284deg, #0ea5e90d 25%, #075985 50%, #0ea5e90d 75%)'
           },
         },
         '.toggle_menu': {
