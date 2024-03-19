@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "name": "Services",
+        "link":"mailto:consultas@rexantecservicios.com.ar"
+    },
+    {
+        "id": "2",
+        "name": "Instalaciones",
+        "link":"mailto:reservas@rexantecservicios.com.ar"
+    },
+    {
+        "id": "3",
+        "name": "Mantenimientos",
+        "link":"mailto:informes@rexantecservicios.com.ar"
+    },
+    {
+        "id": "4",
+        "name": "Facturación",
+        "link":"facturacion@rexantecservicios.com.ar"
+    },
+    {
+        "id": "5",
+        "name": "Ventas",
+        "link":"ventas@rexantecservicios.com.ar"
+    }
+]

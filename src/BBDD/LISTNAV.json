@@ -8,39 +8,7 @@
                 "name": "SERVICES",
                 "sub_content_1": [
                     {
-                        "name": "VALE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "BÁSICO RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "RAYADO CON TAJO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "LARGO RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "MORLEY RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO SPORT",
-                        "href": "/"
-                    },
-                    {
-                        "name": "TIRA CON RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CHOMBA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO MORLEY",
+                        "name": "SERVICIO 1",
                         "href": "/"
                     }
                 ]
@@ -50,39 +18,7 @@
                 "name": "INSTALACIONES",
                 "sub_content_1": [
                     {
-                        "name": "VENICE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRANCESCA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CAROLA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "SOPHIE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "EMMA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CHOMBA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "SHINE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ISA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ARGOLLA",
+                        "name": "SERVICIO 2",
                         "href": "/"
                     }
                 ]
@@ -92,15 +28,7 @@
                 "name": "MANTENIMIENTOS",
                 "sub_content_1": [
                     {
-                        "name": "OVERSIZE ESTAMPADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ALGODÓN SUBLIMADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ESTAMPADOS",
+                        "name": "SERVICIO 3",
                         "href": "/"
                     }
                 ]
@@ -116,39 +44,7 @@
                 "name": "RESIDENCIAL",
                 "sub_content_1": [
                     {
-                        "name": "VALE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "BÁSICO RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "RAYADO CON TAJO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "LARGO RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "MORLEY RAYADO",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO SPORT",
-                        "href": "/"
-                    },
-                    {
-                        "name": "TIRA CON RULETEX",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CHOMBA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRUNCIDO MORLEY",
+                        "name": "PRODUCTO 1",
                         "href": "/"
                     }
                 ]
@@ -158,39 +54,7 @@
                 "name": "COMERCIAL",
                 "sub_content_1": [
                     {
-                        "name": "VENICE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "FRANCESCA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CAROLA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "SOPHIE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "EMMA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "CHOMBA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "SHINE",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ISA",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ARGOLLA",
+                        "name": "PRODUCTO 2",
                         "href": "/"
                     }
                 ]
@@ -200,15 +64,7 @@
                 "name": "INDUSTRIAL",
                 "sub_content_1": [
                     {
-                        "name": "OVERSIZE ESTAMPADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ALGODÓN SUBLIMADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ESTAMPADOS",
+                        "name": "PRODUCTO 3",
                         "href": "/"
                     }
                 ]
@@ -218,15 +74,7 @@
                 "name": "CALDERAS",
                 "sub_content_1": [
                     {
-                        "name": "OVERSIZE ESTAMPADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ALGODÓN SUBLIMADOS",
-                        "href": "/"
-                    },
-                    {
-                        "name": "ESTAMPADOS",
+                        "name": "PRODUCTO 4",
                         "href": "/"
                     }
                 ]
@@ -239,13 +87,9 @@
         "list": [
             {
                 "id": 1,
-                "name": "CONÓCENOS",
-                "sub_content_1": [
-                    {
-                        "name": "REXANTEC",
-                        "href": "/conocenos"
-                    }
-                ]
+                "name": "CONÓCENOS",    
+                "href": "/conocenos",
+                "sub_content_1": []    
             }
         ]
     }

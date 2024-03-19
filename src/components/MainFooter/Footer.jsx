@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ModalNetworks from "./MenuModalSocialNetworks";
+import EMAILS from '../../BBDD/EMAILS';
 
 export default function Footer() {
     return (
@@ -13,13 +14,13 @@ export default function Footer() {
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>SERVICIOS</li>
                         <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:consultas@rexantecservicios.com.ar"}>Services</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[0].link}>{EMAILS[0].name}</Link>
                         </li>
                         <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:reservas@rexantecservicios.com.ar"}>Instalaciones</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[1].link}>{EMAILS[1].name}</Link>
                         </li>
                         <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"mailto:informes@rexantecservicios.com.ar"}>Mantenimientos</Link>
+                            <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[2].link}>{EMAILS[2].name}</Link>
                         </li>
                     </ul>
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
