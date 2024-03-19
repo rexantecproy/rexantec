@@ -5,7 +5,7 @@ import EMAILS from '../../BBDD/EMAILS';
 
 export default function ListPlus() {
     return (
-        <>
+        <div className="flex flex-row items-center md:items-start mt-10 mb-5 nth-4:mr-10 [&_ul]:ml-4 md:[&>ul]:h-44 h-60">
             <ul className="flex flex-col md:w-2/12 items-center divide-x-reverse divide-x-2 divide-solid divide-sky-800 pointer-events-none">
                 <Image src={"https://i.imgur.com/ZoO6k92.png"} width={100} height={100} alt="Logo Footer" />
             </ul>
@@ -49,6 +49,6 @@ export default function ListPlus() {
                     <Link className='hover:text-sky-800' href={"tel:+541158947428"}>(+54) 9 1158947428</Link>
                 </li>
             </ul>
-        </>
+        </div>
     )
 };
