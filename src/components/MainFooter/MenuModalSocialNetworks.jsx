@@ -13,7 +13,7 @@ export default function ModalNetworks() {
                 <span className="text-center text-sm" onClick={() => { setIsOpenModalSocial(!isOpenModalSocial)}}>REDES SOCIALES</span>
                 <div className={`${isOpenModalSocial ? 'fixed inset-0 z-[100] bg-black/50' : 'hidden'}`} ></div>
                 <div className={`${isOpenModalSocial ? 'flex' : 'hidden'} fixed inset-0 flex w-screen h-screen items-center justify-center z-[101] bg-black/0`}> 
-                    <div className="w-auto h-auto flex flex-col bg-white rounded items-center [&_a]:py-3 [&_a]:px-2 [&_a]:w-40 [&_a]:text-center">
+                    <div className="w-auto h-auto flex flex-col bg-white rounded items-center [&_a]:py-3 [&_a]:px-2 [&_a]:w-56 [&_a]:text-center">
                         {
                             LINKS.map((socialink, i) => {
                                 return (
