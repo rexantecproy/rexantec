@@ -6,20 +6,22 @@ import EMAILS from '../../BBDD/EMAILS';
 export default function ListPlus() {
     return (
         <div className="flex flex-row items-center md:items-start mt-10 mb-5 nth-4:mr-10 [&_ul]:ml-4 md:[&>ul]:h-44 h-60">
-            <ul className="flex flex-col md:w-2/12 items-center divide-x-reverse divide-x-2 divide-solid divide-sky-800 pointer-events-none">
+            <ul className="flex flex-col md:w-2/12 items-center pointer-events-none">
                 <Image src={"https://i.imgur.com/ZoO6k92.png"} width={100} height={100} alt="Logo Footer" />
             </ul>
             <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                 <li>{LISTNAV2[0].name.toUpperCase()}</li>
-                <li>
-                    <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[0].link}>{EMAILS[0].name}</Link>
-                </li>
-                <li>
-                    <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[1].link}>{EMAILS[1].name}</Link>
-                </li>
-                <li>
-                    <Link className='hover:font-semibold hover:text-sky-800' href={EMAILS[2].link}>{EMAILS[2].name}</Link>
-                </li>
+                {
+                    EMAILS.map((email, i) => {
+                        return  (i < 3
+                        ?
+                        <li key={`${email}+-${i}`}>
+                            <Link key={`${email}+-${i}`} className='hover:font-semibold hover:text-sky-800' href={EMAILS[i].link}>{EMAILS[i].name}</Link>
+                        </li>
+                        : 
+                        "")
+                    })
+                }
             </ul>
             <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                 <li>{LISTNAV2[1].name.toUpperCase()}</li>
