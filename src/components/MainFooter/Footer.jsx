@@ -37,7 +37,7 @@ export default function Footer() {
                     <ul className="hidden md:flex flex-col nth-1:mb-2 nth-1:text-center nth-2:text-xs w-3/12 [&>li]:py-1 divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>INSTITUCIONAL</li>
                         <li>
-                            <Link className='hover:hover:text-sky-800' href={LISTNAV2[2].list.href}>&nbsp;&nbsp;Conocé sobre la historia de Rexantec en el mundo del Aire Acondicionado.</Link>
+                            <Link className='hover:hover:text-sky-800' href={LISTNAV2[1].list[0].href}>&nbsp;&nbsp;Conocé sobre la historia de Rexantec en el mundo del Aire Acondicionado.</Link>
                         </li>
                     </ul>
                     <ul className="md:w-4/12 w-2/5 text-end">
