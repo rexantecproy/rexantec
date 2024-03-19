@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { HrComponent } from "../utilities/HrComponent";
 import LINKS from '../../BBDD/SOCIALNETWORKS.json';
 import { useState } from "react";
 
@@ -8,7 +7,7 @@ export default function ModalNetworks() {
     const [isOpenModalSocial, setIsOpenModalSocial] = useState(false);
     return (
         <div className={`md:hidden`} >
-            <HrComponent color={"#075985"} height={3} />
+            <hr className="bg-sky-800 h-[3px]" />
             <div className="flex flex-col my-4 [&_a]:text-sm [&_a]:my-1">
                 <span className="text-center text-sm" onClick={() => { setIsOpenModalSocial(!isOpenModalSocial)}}>REDES SOCIALES</span>
                 <div className={`${isOpenModalSocial ? 'fixed inset-0 z-[100] bg-black/50' : 'hidden'}`} ></div>
