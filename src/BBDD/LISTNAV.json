@@ -1,38 +1,38 @@
 [
     {
         "name": "Servicios",
-        "linknav": "/",
+        "linknav": "/servicios",
         "list": [
             {
                 "id": 1,
                 "name": "SERVICES",
-                "href": "/",
+                "href": "/services",
                 "sub_content_1": [
                     {
                         "name": "SERVICIO 1",
-                        "href": "/"
+                        "href": "/servicio1"
                     }
                 ]
             },
             {
                 "id": 2,
                 "name": "INSTALACIONES",
-                "href": "/",
+                "href": "/instalaciones",
                 "sub_content_1": [
                     {
                         "name": "SERVICIO 2",
-                        "href": "/"
+                        "href": "/servicio2"
                     }
                 ]
             },
             {
                 "id": 3,
                 "name": "MANTENIMIENTOS",
-                "href": "/",
+                "href": "/mantenimientos",
                 "sub_content_1": [
                     {
                         "name": "SERVICIO 3",
-                        "href": "/"
+                        "href": "/servicio3"
                     }
                 ]
             }
@@ -40,49 +40,49 @@
     },
     {
         "name": "Productos",
-        "linknav": "/",
+        "linknav": "/productos",
         "list": [
             {
                 "id": 1,
                 "name": "CALDERAS",
-                "href": "/",
+                "href": "/calderas",
                 "sub_content_1": [
                     {
                         "name": "PRODUCTO 1",
-                        "href": "/"
+                        "href": "/producto1"
                     }
                 ]
             },
             {
                 "id": 2,
                 "name": "COMERCIAL",
-                "href": "/",
+                "href": "/comercial",
                 "sub_content_1": [
                     {
                         "name": "PRODUCTO 2",
-                        "href": "/"
+                        "href": "/producto2"
                     }
                 ]
             },
             {
                 "id": 3,
                 "name": "INDUSTRIAL",
-                "href": "/",
+                "href": "/industrial",
                 "sub_content_1": [
                     {
                         "name": "PRODUCTO 3",
-                        "href": "/"
+                        "href": "/producto3"
                     }
                 ]
             },
             {
                 "id": 3,
                 "name": "RESIDENCIAL",
-                "href": "/",
+                "href": "/residencial",
                 "sub_content_1": [
                     {
                         "name": "PRODUCTO 4",
-                        "href": "/"
+                        "href": "/producto4"
                     }
                 ]
             }
