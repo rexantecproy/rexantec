@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ModalNetworks from "./MenuModalSocialNetworks";
+import LISTNAV2 from '../../BBDD/LISTNAV';
 import EMAILS from '../../BBDD/EMAILS';
 
 export default function Footer() {
@@ -25,18 +26,13 @@ export default function Footer() {
                     </ul>
                     <ul className="hidden md:flex flex-col w-2/12 nth-1:mb-2 nth-1:text-center [&>li]:py-1 [&>li]:text-xs nth-1:text-base divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>PRODUCTOS</li>
-                        <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Residencial</Link>
-                        </li>
-                        <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Comercial</Link>
-                        </li>
-                        <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Industrial</Link>
-                        </li>
-                        <li>
-                            <Link className='hover:font-semibold hover:text-sky-800' href={"/"}>Calderas</Link>
-                        </li>
+                        {
+                            LISTNAV2[1].list.map((listNav, i) => {
+                                return (<li key={`${listNav}--${i}Ñ`}>
+                                    <Link key={`${listNav}--${i}Ñ`} className={`hover:font-semibold hover:text-sky-800`} href={listNav.href}>{ `${listNav.name.charAt(0).toUpperCase()}${listNav.name.slice(1).toLowerCase()}`}</Link>
+                                </li>)
+                            })
+                        }
                     </ul>
                     <ul className="hidden md:flex flex-col nth-1:mb-2 nth-1:text-center nth-2:text-xs w-3/12 [&>li]:py-1 divide-x-reverse divide-x-2 divide-solid divide-sky-800">
                         <li>INSTITUCIONAL</li>
